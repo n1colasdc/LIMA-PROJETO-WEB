@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css2?family=inter:wght@300;600&display=swap);
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "inter" sans-serif;
+    background: linear-gradient(45deg, #131086, #b621f3 );
+    padding: 40px;
+}
+
+.container {
+    min-height: calc(100vh -40px , 200);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: content;
+    padding-left: 150px;
+    background-color: white;
+}
+
+.login-right{
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+}
+
+
+.login-header{
+    width: 450px;
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    &-footer {
+        display: flex;
+        gap: 30px;
+        margin-top: 70px;
+
+        a{}
+    }
+}
+
+.form-item label:not(.checkboxlabel) {
+    display: inset-block;
+    background-color: white;
+}
+

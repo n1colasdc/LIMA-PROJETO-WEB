@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/carrinho.css">
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"    />
+    <title>Carrinho de compras</title>
+</head>
+<body>
+    
+    <header>
+            <a href="home.html" class="logo"><i class='bx bxs-book-alt'></i><span>Study digital</span></a>
+        <span>Carrinho de compras</span>
+    </header>
+    <main>
+        <div class="titulo"></div>
+        <div class="content">
+            <section>
+                <table>
+                    <thead>
+                        <tr class="tt">
+                            <th>Produto</th>
+                            <th> Preço </th>
+                            <th> Quantidade </th>
+                            <th> Total </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="produtos">
+                                    <img src="#" alt=""/>
+                                    <div class="info">
+                                        <div class="nome">Eletrônica- Período 2023 a 2025 </div>
+                                        <div class="categoria">Tecnologia</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 265,78</td>
+                            <td>
+                                <div class="qty">
+                                    <button class="remover"><i class='bx bx-minus'style="color: red;"></i></button>
+                                    <span>2</span>
+                                    <button><i class="bx bx-plus"style="color: green"></i></button>
+                                </div>
+                            </td>
+                            <td>R$ 531,56</td>
+                            <td>
+                                <button class="remover"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="produtos">
+                                    <img src="#" alt=""/>
+                                    <div class="info">
+                                        <div class="nome">Curso de emagrecimento em 30 dias</div>
+                                        <div class="categoria">emagrecimento</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 90,78</td>
+                            <td>
+                                <div class="qty">
+                                    <button class="remover"><i class='bx bx-minus'style="color: red;"></i></button>
+                                    <span>2</span>
+                                    <button><i class="bx bx-plus"style="color: green"></i></button>
+                                </div>
+                            </td>
+                            <td>R$ 181,56</td>
+                            <td>
+                                <button class="remover"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="produtos">
+                                    <img src="#" alt=""/>
+                                    <div class="info">
+                                        <div class="nome">Curso mecânica 3.0 - Período 2023 a 2024</div>
+                                        <div class="categoria">mecânica</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 85,58</td>
+                            <td>
+                                <div class="qty">
+                                    <button class="remover"><i class='bx bx-minus'style="color: red;"></i></button>
+                                    <span>2</span>
+                                    <button><i class="bx bx-plus"style="color: green"></i></button>
+                                </div>
+                            </td>
+                            <td>R$ 171,16</td>
+                            <td>
+                                <button class="remover"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="produtos">
+                                    <img src="#" alt=""/>
+                                    <div class="info">
+                                        <div class="nome">curso de financias - Período 2023</div>
+                                        <div class="categoria">Dinheiro</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 165,78</td>
+                            <td>
+                                <div class="qty">
+                                    <button class="remover"><i class='bx bx-minus' style="color: red;"></i></button>
+                                    <span>2</span>
+                                    <button><i class="bx bx-plus" style="color: green"></i></button>
+                                </div>
+                            </td>
+                            <td>R$ 331,56</td>
+                            <td>
+                                <button class="remover"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="produtos">
+                                    <img src="#" alt=""/>
+                                    <div class="info">
+                                        <div class="nome">Marketing- Período 2023</div>
+                                        <div class="categoria">Dinheiro</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 265,78</td>
+                            <td>
+                                <div class="qty">
+                                    <button class="remover"><i class='bx bx-minus'style="color: red;"></i></button>
+                                    <span>2</span>
+                                    <button><i class="bx bx-plus"style="color: green"></i></button>
+                                </div>
+                            </td>
+                            <td>R$ 531,56</td>
+                            <td>
+                                <button class="remover"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <aside>
+                <div class="box">
+                    <header>Resumo da compra</header>
+                    <div class="info">
+                        <div><span>Sub-total</span><span> R$ 418</span></div>
+                        <div><span>Frete</span><span> Gratis</span></div>
+                        <div>
+                            <footer>
+                                <span>Total</span>
+                                <span>R$ 418</span>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <button>Finalizar compra</button>
+            </aside>
+        </div>
+
+    </main>
+    
+</body>
+</html>
